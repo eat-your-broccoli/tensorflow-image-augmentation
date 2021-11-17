@@ -1,0 +1,5 @@
+#/data/srcImg
+/data/augmentedImg
+/data/downscaledImg
+!/data/srcImg/.gitkeep
+!/data/**/*.ipynb

@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  keras:
+    image: tensorflow/tensorflow:latest-jupyter
+    container_name: keras-python
+    ports:
+      - 8888:8888
+    volumes:
+      - ./data:/tf/data
+    command: bash -c "pip3 install scipy && pip3 install scikit-image && pip3 install scipy && source /etc/bash.bashrc && jupyter notebook --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root"
