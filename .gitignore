@@ -1,4 +1,4 @@
-#/data/srcImg
+/data/srcImg
 /data/augmentedImg
 /data/downscaledImg
 !/data/srcImg/.gitkeep
