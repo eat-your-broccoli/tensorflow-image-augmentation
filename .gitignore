@@ -3,3 +3,6 @@
 /data/downscaledImg
 !/data/srcImg/.gitkeep
 !/data/**/*.ipynb
+
+/data/.ipynb_checkpoints
+/data/**/.Trash-0
