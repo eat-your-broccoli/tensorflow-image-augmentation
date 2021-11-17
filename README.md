@@ -1,7 +1,8 @@
 # tensorflow-image-augmentation
 A simple docker container to run jupyter notebooks for image augmentation for machine learning.
 
-The images are loaded from `srcImg`, scaled down and saved to `downscaledImg`, then augmented and saved to `augmentedImg`. 
+Two jupyter notebooks exist. One loads images from `srcImg`, scales them down to below 0.5MB, and then saves to `downscaledImg`.
+The other notebook loads the images from `downscaledImages`, augments them (flip, rotate, shift, zoom, ...) and then saves them to `augmentedImg`.
 
 ## Start
 run `docker-compose up`
